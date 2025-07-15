@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container" id="container">
+      <div class="form-container sign-up">
+        <form>
+          <h1>Crie uma conta</h1>
+          <div class="social-icons">
+            <a href="#" class="icon">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#" class="icon">
+              <i class="fab fa-google-plus-g"></i>
+            </a>
+            <a href="#" class="icon">
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="#" class="icon">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+          </div>
+          <span>Use seu E-mail para registrar-se</span>
+          <input type="text" placeholder="Nome" />
+          <input type="email" placeholder="E-mail" />
+          <input type="password" placeholder="Password" />
+          <button>Cadastrar-se</button>
+        </form>
+      </div>
+      <div class="form-container sign-in">
+        <form>
+          <h1>Login</h1>
+          <div class="social-icons">
+            <a href="#" class="icon">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#" class="icon">
+              <i class="fab fa-google-plus-g"></i>
+            </a>
+            <a href="#" class="icon">
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="#" class="icon">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+          </div>
+          <span>Use seu E-mail para entrar!</span>
+          <input type="email" placeholder="E-mail" />
+          <input type="password" placeholder="Password" />
+          <a href="#">Esqueceu Sua Senha?</a>
+          <button>Login</button>
+        </form>
+      </div>
+      <div class="toggle-container">
+        <div class="toggle">
+          <div class="toggle-panel toggle-left">
+            <h1>Bem-vindo de volta</h1>
+            <p>
+              Acesse o site para ver as novidades e interagir com a comunidade
+            </p>
+            <button class="hidden" id="login">Entrar</button>
+          </div>
+          <div class="toggle-panel toggle-right">
+            <h1>Olá, Amigo!</h1>
+            <p>
+              registrar-se para ver as novidades e interagir com a comunidade
+            </p>
+            <button class="hidden" id="register">Entrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
